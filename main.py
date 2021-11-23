@@ -68,7 +68,7 @@ while True:
             today = today.strftime("%Y%m%d")
         elif system_time == 'hum':
             today = input("Enter yearmonthday in this format without spaces(Example: 20200130): ")
-        quantity = input("What is the quantity done today: ")
+        quantity = input("What is the quantity done on this day: ")
         
         pixel_params = {
         "date": today,
